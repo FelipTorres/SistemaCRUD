@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    background: linear-gradient(45deg, #483D8B, #800080, #BA55D3, #E6E6FA);
+    background-size: 300% 300%;
+    font-family: 'Courier New', Courier, monospace;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    box-shadow: 15px 20px rgba(130, 130, 206, 0.24);
+    background-color: #D8BFD8;
+    border: solid 3px black;
+}
+
+.card-header {
+    position: relative;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-top: -60%;
+    margin-left: auto;
+}
+
+.hr{
+    width: 100%;
+}
+
+.card-content {
+    padding: 15px 0px;
+}
+
+.card-content-area {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.user, .pass {
+    font-size: 20px;
+    align-items: center;
+    display: block;
+}
+
+#usuario, #password{
+    width: 200px;
+    padding: 3%;
+    box-shadow: 1px 1px black;
+}
+
+.submit {
+    letter-spacing: 2px;
+    border-radius: 25%;
+    padding: 3%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 40%;
+    display: block;
+    border: none;
+    box-shadow: 1px 1px black;
+}
+
+.cria_cadastro{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
